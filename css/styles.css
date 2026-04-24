@@ -96,6 +96,7 @@ margin: 0 auto;
       font-weight: 500;
   padding: 24px 0;
   display: block;
+  transition: color;
 }
 
 .main-link:hover, .main-link:focus {
@@ -125,6 +126,7 @@ margin: 0 auto;
   padding: 24px 0;
   display: block;
   color: #2e2f42;
+  transition: color;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -159,6 +161,7 @@ text-align: center;
 color: #fff;
 padding-bottom: 188px;
 max-width: 1440px;
+margin: 0 auto
 }
 
 .main-title {
@@ -471,9 +474,6 @@ padding: 120px 0;
 .footer-social-list {
     display: flex;
     gap: 16px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-item {
